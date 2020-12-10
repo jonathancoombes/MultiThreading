@@ -46,10 +46,17 @@ namespace MultiThreading
              */
 
 
-            // Uncomment to Run: UsingManualResetEvent
-             // Example 4 demonstrates: How to use manualResetEvent to prevent other threads from accessing specific code whilst it is being processed by another thread.
+            /*Uncomment to Run: UsingManualResetEvent
+            Example 4 demonstrates: How to use manualResetEvent to prevent other threads from accessing specific code whilst it is being processed by another thread.
 
-             UsingManualResetEvent manualRe = new UsingManualResetEvent();
+            UsingManualResetEvent manualRe = new UsingManualResetEvent();
+            */
+
+            /*Uncomment to Run: UsingAutoResetEvent
+           Example 5 demonstrates: How to use autoResetEvent to prevent other threads from accessing specific code whilst it is being processed by another thread.
+
+           UsingAutoResetEvent autoRe = new UsingAutoResetEvent();
+           */
 
             Console.ReadLine();
         }
